@@ -4,12 +4,12 @@ require './lib/bookmark'
 class BookmarkManager < Sinatra::Base
 
   get '/' do
-    @bookmark = Bookmark.create
+    @bookmarks = Bookmark.create
     erb(:index)
   end
 
   get '/bookmarks' do
-    @bookmark = Bookmark.instance
+    @bookmarks = Bookmark.instance
     erb(:bookmarks)
   end
 

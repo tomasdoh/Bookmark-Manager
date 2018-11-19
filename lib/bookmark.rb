@@ -1,9 +1,10 @@
 class Bookmark
 
-  LIST = {
-      "Makers Academy" => "http://makers.tech",
-      "BBC News" => "http://bbcnews.com"
-  }
+  LIST = [
+      "http://makers.tech",
+      "http://bbcnews.com",
+      "http://google.com"
+  ]
 
   def initialize(list = LIST)
     @list = list

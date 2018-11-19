@@ -1,1 +1,5 @@
-<%=@bookmark.all%>
+<ul>
+  <% @bookmarks.all.each do |bookmark| %>
+    <li><%= bookmark %></li>
+  <% end %>
+</ul>

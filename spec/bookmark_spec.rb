@@ -4,8 +4,9 @@ describe Bookmark do
 
   describe '#all' do
     it 'lists all of the bookmarks' do
-      expect(subject.all).to include("Makers Academy")
-      expect(subject.all).to include("BBC News")
+      expect(subject.all).to include('http://makers.tech')
+      expect(subject.all).to include('http://bbcnews.com')
+      expect(subject.all).to include('http://google.com')
     end
   end
 
