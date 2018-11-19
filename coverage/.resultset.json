@@ -1,7 +1,44 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/tomdoh/makers_projects/bookmark_manager/spec/bookmark_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/tomdoh/makers_projects/bookmark_manager/spec/features/index_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
     },
-    "timestamp": 1542637862
+    "timestamp": 1542640551
   }
 }
