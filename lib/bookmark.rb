@@ -1,25 +1,11 @@
+require 'pg'
+
 class Bookmark
 
-  LIST = [
-      "http://makers.tech",
-      "http://bbcnews.com",
-      "http://google.com"
-  ]
-
-  def initialize(list = LIST)
-    @list = list
-  end
-
-  def all
-    @list
-  end
-
-  def self.instance
-    @bookmark
-  end
-
-  def self.create
-    @bookmark = Bookmark.new
+  def self.all
+    connection = PG.connect(dbname: 'bookmark_manager')
+    result = connection.exec('SELECT * FROM bookmarks')
+    result.map { |bookmark| bookmark['url'] }
   end
 
 end
