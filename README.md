@@ -3,11 +3,13 @@
 ### User stories
 
 ```
-User story 1
-
 As an internet user,
 So that I can find all of my favourite websites when I need them,
 I want to be able to view a list of my bookmarked urls.
+
+As an internet user,
+So that I can remember any new websites that I like,
+I want to be able to add urls to the list of bookmarks.
 ```
 
 ### Domain model
@@ -16,11 +18,12 @@ I want to be able to view a list of my bookmarked urls.
 
 ### To set up the database:
 
-Connect to `psql` and create the `bookmark_manager` database:
+Connect to `psql` and create the `bookmark_manager` database and `bookmark_manager_test` databases:
 ```
 CREATE DATABASE bookmark_manager;
+CREATE DATABASE bookmark_manager_test;
 ```
-To set up the appropriate tables, connect to the database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
+To set up the appropriate tables, connect to each database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
 
 ### To run the Bookmark Manager app:
 
