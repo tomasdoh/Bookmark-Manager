@@ -3,14 +3,28 @@
     "coverage": {
       "/Users/tomdoh/makers_projects/bookmark_manager/spec/bookmark_spec.rb": [
         1,
-        null,
         1,
         null,
         1,
         1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
         null,
         1,
         null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
         1,
         1,
         1,
@@ -23,13 +37,32 @@
         null,
         null
       ],
+      "/Users/tomdoh/makers_projects/bookmark_manager/spec/database_helpers.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/tomdoh/makers_projects/bookmark_manager/spec/features/add_bookmark_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
       "/Users/tomdoh/makers_projects/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": [
         1,
         null,
         1,
         1,
-        1,
-        null,
         1,
         1,
         1,
@@ -43,6 +76,6 @@
         null
       ]
     },
-    "timestamp": 1542796751
+    "timestamp": 1542986011
   }
 }
