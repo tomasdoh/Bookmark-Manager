@@ -72,6 +72,26 @@
         null,
         null
       ],
+      "/Users/tomdoh/makers_projects/bookmark_manager/spec/features/update_bookmarks_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/tomdoh/makers_projects/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": [
         1,
         null,
@@ -90,6 +110,6 @@
         null
       ]
     },
-    "timestamp": 1542990095
+    "timestamp": 1542991076
   }
 }

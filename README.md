@@ -14,6 +14,10 @@ I want to be able to add urls to the list of bookmarks.
 As an internet user,
 So that I can manage my bookmarks the way I want,
 I want to be able to delete a bookmark.
+
+As an internet user,
+So I can make changes to my bookmarks,
+I want to be able to update a bookmark.
 ```
 
 ### Domain model
