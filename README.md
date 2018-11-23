@@ -10,6 +10,10 @@ I want to be able to view a list of my bookmarked urls.
 As an internet user,
 So that I can remember any new websites that I like,
 I want to be able to add urls to the list of bookmarks.
+
+As an internet user,
+So that I can manage my bookmarks the way I want,
+I want to be able to delete a bookmark.
 ```
 
 ### Domain model

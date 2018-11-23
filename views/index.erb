@@ -1,9 +1,5 @@
-<ul>
-  <% @bookmarks.each do |bookmark| %>
-    <li>
-      <a href="<%= bookmark.url %>">
-        <%= bookmark.title %>
-      </a>
-    </li>
-  <% end %>
-</ul>
+<h1>Bookmark Manager</h1>
+
+<a href="/bookmarks">View all bookmarks</a>
+<br>
+<a href="/bookmarks/new">Create a new bookmark</a>
