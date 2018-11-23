@@ -3,7 +3,7 @@ require './lib/bookmark'
 
 class BookmarkManager < Sinatra::Base
   get '/' do
-      'Bookmark Manager'
+    'Bookmark Manager'
   end
 
   get '/bookmarks' do
@@ -21,5 +21,4 @@ class BookmarkManager < Sinatra::Base
   end
 
   run! if app_file == $0
-
 end
