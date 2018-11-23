@@ -35,6 +35,18 @@
         1,
         null,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/tomdoh/makers_projects/bookmark_manager/spec/database_helpers.rb": [
@@ -110,6 +122,6 @@
         null
       ]
     },
-    "timestamp": 1542991076
+    "timestamp": 1542991333
   }
 }
