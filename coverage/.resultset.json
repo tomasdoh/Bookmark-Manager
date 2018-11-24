@@ -47,6 +47,20 @@
         1,
         null,
         null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/tomdoh/makers_projects/bookmark_manager/spec/database_helpers.rb": [
@@ -54,6 +68,35 @@
         1,
         1,
         1,
+        null
+      ],
+      "/Users/tomdoh/makers_projects/bookmark_manager/spec/database_connection_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/tomdoh/makers_projects/bookmark_manager/spec/features/add_bookmark_spec.rb": [
@@ -122,6 +165,6 @@
         null
       ]
     },
-    "timestamp": 1542991333
+    "timestamp": 1543063891
   }
 }
