@@ -1,4 +1,5 @@
 require_relative 'database_connection'
+require_relative './comment'
 
 class Bookmark
   attr_reader :id, :title, :url
@@ -10,13 +11,14 @@ class Bookmark
   end
 
   def self.all
-    result = DatabaseConnection.query('SELECT * FROM bookmarks')
-    result.map do |bookmark|
+    bookmarks = DatabaseConnection.query('SELECT * FROM bookmarks')
+    bookmarks.map do |bookmark|
       Bookmark.new(id: bookmark['id'], title: bookmark['title'], url: bookmark['url'])
     end
   end
 
   def self.create(url:, title:)
+    return false unless is_url?(url)
     result = DatabaseConnection.query("INSERT INTO bookmarks (url, title) VALUES('#{url}', '#{title}') RETURNING id, title, url;")
     Bookmark.new(id: result[0]['id'], title: result[0]['title'], url: result[0]['url'])
   end
@@ -34,4 +36,15 @@ class Bookmark
     result = DatabaseConnection.query("SELECT * FROM bookmarks WHERE id = #{id};")
     Bookmark.new(id: result[0]['id'], title: result[0]['title'], url: result[0]['url'])
   end
+
+  def comments(comment_class = Comment)
+    comment_class.where(bookmark_id: id)
+  end
+
+  private
+
+  def self.is_url?(url)
+    url =~ URI::DEFAULT_PARSER.regexp[:ABS_URI]
+  end
+
 end
